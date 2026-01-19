@@ -1,4 +1,18 @@
 供小公司使用和个人学习的CMDB项目，具有员工添加展示功能，消息通知发布功能，机房与机房服务器，k8s服务器可视化，监控与终端连接功能。欢迎与本人讨论wuhongyu191@gmail.com
+## 🛠 技术栈
+
+### 前端 (Frontend)
+- **核心框架**: Vue 3
+- **UI 组件库**: Element Plus
+- **数据可视化**: Apache ECharts
+
+### 后端 (Backend)
+- **核心框架**: Django
+- **API 框架**: Django REST Framework (DRF)
+
+### 基础设施 & 依赖 (Infrastructure)
+- **监控系统**: Prometheus
+
 
 以下为部分页面展示图片
 
