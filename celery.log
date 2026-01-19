@@ -1,0 +1,1401 @@
+2024-12-11 11:25:15,914 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:25:15,924 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-11 11:25:15,925 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:25:15,928 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-11 11:25:17,025 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-11 11:25:17,029 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:25:17,033 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-11 11:25:17,038 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-11 11:27:23,622 - celery.worker.strategy - INFO - Task oaback.celery.debug_task[ef081c0c-84db-41c4-b830-4dd6977a8322] received
+2024-12-11 11:27:23,623 - celery.redirected - WARNING - xxxxxxxxxxxxxxxxxxxxxxxxxxx
+2024-12-11 11:27:23,645 - celery.app.trace - INFO - Task oaback.celery.debug_task[ef081c0c-84db-41c4-b830-4dd6977a8322] succeeded in 0.03099999999994907s: None
+2024-12-11 11:39:25,537 - celery.worker.strategy - INFO - Task oaback.celery.debug_task[10ded72b-9cd5-4bd8-b715-a69b463d75a4] received
+2024-12-11 11:39:25,538 - celery.redirected - WARNING - xxxxxxxxxxxxxxxxxxxxxxxxxxx
+2024-12-11 11:39:25,561 - celery.app.trace - INFO - Task oaback.celery.debug_task[10ded72b-9cd5-4bd8-b715-a69b463d75a4] succeeded in 0.03099999999994907s: None
+2024-12-11 11:40:19,235 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:40:19,259 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-11 11:40:19,260 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:40:19,262 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-11 11:40:20,292 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-11 11:40:20,297 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:40:20,301 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-11 11:40:20,306 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-11 11:40:26,347 - celery.worker.strategy - INFO - Task oaback.celery.debug_task[2ecbd988-d625-426d-8dbc-aad28695b682] received
+2024-12-11 11:40:26,347 - celery.redirected - WARNING - Request: <Context: {'lang': 'py', 'task': 'oaback.celery.debug_task', 'id': '2ecbd988-d625-426d-8dbc-aad28695b682', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '2ecbd988-d625-426d-8dbc-aad28695b682', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen21812@luxy', 'ignore_result': True, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'properties': {'correlation_id': '2ecbd988-d625-426d-8dbc-aad28695b682', 'reply_to': '46ad5837-2a2c-3297-bf03-2428eab82a09', 'delivery_mode': 2, 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '78a5a479-ec1a-4347-a1d3-12538e5cbe7b'}, 'reply_to': '46ad5837-2a2c-3297-bf03-2428eab82a09', 'correlation_id': '2ecbd988-d625-426d-8dbc-aad28695b682', 'hostname': 'celery@luxy', 'delivery_info': {'exchange': '', 'routing_key': 'celery', 'priority': 0, 'redelivered': False}, 'args': [], 'kwargs': {}, 'is_eager': False, 'callbacks': None, 'errbacks': None, 'chain': None, 'chord': None, 'called_directly': False, 'headers': None, '_protected': 1}>
+2024-12-11 11:40:26,348 - celery.redirected - WARNING - xxxxxxxxxxxxxxxxxxxxxxxxxxx
+2024-12-11 11:40:26,369 - celery.app.trace - INFO - Task oaback.celery.debug_task[2ecbd988-d625-426d-8dbc-aad28695b682] succeeded in 0.016000000000076398s: None
+2024-12-11 11:49:48,113 - celery.worker.consumer.consumer - ERROR - Received unregistered task of type 'send_mail_task'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+https://docs.celeryq.dev/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[["1945466258@qq.com", "\\u3010WHYOPS\\u3011\\u8d26\\u53f7\\u6fc0\\u6d3b", "\\u8bf7\\u70b9\\u51fb\\u4ee5\\u4e0b\\u6fc0\\u6d3b\\u94fe\\u63a5\\u6fc0\\u6d3b\\u8d26\\u53f7: http://192.168.239.1:8000/staff/active?token=aallhcmj/SR/lRvD6XgqZLeZIxhKeDOumoVMvRpBkxZj99j2kNZe8rtjz2qNQJvH"], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (335b)
+
+The full contents of the message headers:
+{'lang': 'py', 'task': 'send_mail_task', 'id': '8e58e92c-64c6-48c8-8285-c22b2eca4bbc', 'shadow': None, 'eta': None, 'expires': None, 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '8e58e92c-64c6-48c8-8285-c22b2eca4bbc', 'parent_id': None, 'argsrepr': "('1945466258@qq.com', '【WHYOPS】账号激活', '请点击以下激活链接激活账号: http://192.168.239.1:8000/staff/active?token=aallhcmj/SR/lRvD6XgqZLeZIxhKeDOumoVMvRpBkxZj99j2kNZe8rtjz2qNQJvH')", 'kwargsrepr': '{}', 'origin': 'gen2236@luxy', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}}
+
+The delivery info for this task is:
+{'exchange': '', 'routing_key': 'celery'}
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py", line 659, in on_task_received
+    strategy = strategies[type_]
+KeyError: 'send_mail_task'
+2024-12-11 11:53:50,264 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:53:50,274 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-11 11:53:50,274 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:53:50,277 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-11 11:53:51,299 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-11 11:53:51,304 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-11 11:53:51,324 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-11 11:53:51,329 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-11 11:54:15,420 - celery.worker.strategy - INFO - Task send_mail_task[d8bdf661-6613-47b0-9770-fb6c6047b430] received
+2024-12-11 11:54:16,614 - celery.app.trace - INFO - Task send_mail_task[d8bdf661-6613-47b0-9770-fb6c6047b430] succeeded in 1.1869999999998981s: None
+2024-12-11 11:58:46,245 - celery.worker.strategy - INFO - Task send_mail_task[1b20e64a-e90e-4f6d-ab64-c7985aa9ae73] received
+2024-12-11 11:58:47,411 - celery.app.trace - INFO - Task send_mail_task[1b20e64a-e90e-4f6d-ab64-c7985aa9ae73] succeeded in 1.1720000000004802s: None
+2024-12-11 11:59:48,575 - celery.worker.strategy - INFO - Task send_mail_task[11d8d51e-a580-49e7-a930-adc4ae539e21] received
+2024-12-11 11:59:49,818 - celery.app.trace - INFO - Task send_mail_task[11d8d51e-a580-49e7-a930-adc4ae539e21] succeeded in 1.2340000000003783s: None
+2024-12-12 13:11:03,186 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-12 13:11:03,199 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-12 13:11:03,200 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-12 13:11:03,203 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-12 13:11:04,263 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-12 13:11:04,269 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-12 13:11:04,288 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-12 13:11:04,296 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-12 13:16:51,798 - celery.worker.strategy - INFO - Task send_mail_task[74bf3b2c-8316-45c3-8bd7-79da241eab6e] received
+2024-12-12 13:16:53,216 - celery.app.trace - INFO - Task send_mail_task[74bf3b2c-8316-45c3-8bd7-79da241eab6e] succeeded in 1.4060000000008586s: None
+2024-12-12 13:24:56,229 - celery.worker.strategy - INFO - Task send_mail_task[651ad570-75f7-4c10-b7ad-b39b4152629a] received
+2024-12-12 13:25:07,447 - celery.app.trace - ERROR - Task send_mail_task[651ad570-75f7-4c10-b7ad-b39b4152629a] raised unexpected: gaierror(11001, 'getaddrinfo failed')
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\staff\tasks.py", line 8, in send_mail_task
+    send_mail(subject, recipient_list=[email], message=message,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\message.py", line 299, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 85, in open
+    self.connection = self.connection_class(
+  File "D:\python3.8.1\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\python3.8.1\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\python3.8.1\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\socket.py", line 102, in create_connection
+    addrs = list(getaddrinfo(host, port, 0, SOCK_STREAM))
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 225, in getaddrinfo
+    addrlist = get_hub().resolver.getaddrinfo(host, port, family, type, proto, flags)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\resolver\thread.py", line 63, in getaddrinfo
+    return self.pool.apply(_socket.getaddrinfo, args, kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\pool.py", line 161, in apply
+    return self.spawn(func, *args, **kwds).get()
+  File "src\\gevent\\event.py", line 329, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 359, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 347, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 327, in gevent._gevent_cevent.AsyncResult._raise_exception
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_compat.py", line 49, in reraise
+    raise value.with_traceback(tb)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\threadpool.py", line 173, in __run_task
+    thread_result.set(func(*args, **kwargs))
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-12-13 11:48:16,625 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-13 11:48:16,639 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-13 11:48:16,640 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-13 11:48:16,657 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-13 11:48:17,710 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-13 11:48:17,753 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-13 11:48:17,779 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-13 11:48:17,781 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-13 11:48:17,782 - celery.worker.strategy - INFO - Task send_mail_task[17f359d7-9b3d-4a70-adce-176b62a662bd] received
+2024-12-13 11:48:17,790 - celery.worker.strategy - INFO - Task send_mail_task[b3169584-ec06-4b12-b1c0-6b7c96cd5fb6] received
+2024-12-13 11:48:29,146 - celery.app.trace - ERROR - Task send_mail_task[b3169584-ec06-4b12-b1c0-6b7c96cd5fb6] raised unexpected: gaierror(11001, 'getaddrinfo failed')
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\staff\tasks.py", line 8, in send_mail_task
+    send_mail(subject, recipient_list=[email], message=message,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\message.py", line 299, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 85, in open
+    self.connection = self.connection_class(
+  File "D:\python3.8.1\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\python3.8.1\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\python3.8.1\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\socket.py", line 102, in create_connection
+    addrs = list(getaddrinfo(host, port, 0, SOCK_STREAM))
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 225, in getaddrinfo
+    addrlist = get_hub().resolver.getaddrinfo(host, port, family, type, proto, flags)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\resolver\thread.py", line 63, in getaddrinfo
+    return self.pool.apply(_socket.getaddrinfo, args, kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\pool.py", line 161, in apply
+    return self.spawn(func, *args, **kwds).get()
+  File "src\\gevent\\event.py", line 329, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 359, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 347, in gevent._gevent_cevent.AsyncResult.get
+  File "src\\gevent\\event.py", line 327, in gevent._gevent_cevent.AsyncResult._raise_exception
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_compat.py", line 49, in reraise
+    raise value.with_traceback(tb)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\threadpool.py", line 173, in __run_task
+    thread_result.set(func(*args, **kwargs))
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-12-13 11:48:30,460 - celery.app.trace - INFO - Task send_mail_task[17f359d7-9b3d-4a70-adce-176b62a662bd] succeeded in 12.67199999999957s: None
+2024-12-14 18:49:26,301 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-14 18:49:26,315 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2024-12-14 18:49:26,316 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-14 18:49:26,321 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2024-12-14 18:49:27,376 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2024-12-14 18:49:27,380 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2024-12-14 18:49:27,385 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2024-12-14 18:49:27,389 - celery.apps.worker - INFO - celery@luxy ready.
+2024-12-14 18:57:31,197 - celery.worker.strategy - INFO - Task send_mail_task[d07d42bd-260f-4778-9757-bb8945e3b4b8] received
+2024-12-14 18:57:33,033 - celery.app.trace - ERROR - Task send_mail_task[d07d42bd-260f-4778-9757-bb8945e3b4b8] raised unexpected: SMTPDataError(550, b'The recipient may contain a non-existent account, please check the recipient address.')
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\staff\tasks.py", line 8, in send_mail_task
+    send_mail(subject, recipient_list=[email], message=message,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\message.py", line 299, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+  File "D:\python3.8.1\lib\smtplib.py", line 892, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (550, b'The recipient may contain a non-existent account, please check the recipient address.')
+2024-12-14 18:59:48,759 - celery.worker.strategy - INFO - Task send_mail_task[7aedb889-8c44-4897-924d-f761ac71c659] received
+2024-12-14 18:59:51,057 - celery.app.trace - INFO - Task send_mail_task[7aedb889-8c44-4897-924d-f761ac71c659] succeeded in 2.2970000000000255s: None
+2024-12-14 19:12:19,351 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\concurrency\gevent.py:48: UserWarning: libuv only supports millisecond timer resolution; all times less will be set to 1 ms
+  g = self._Greenlet.spawn_later(secs, entry)
+
+2025-01-09 14:43:00,279 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-09 14:43:00,301 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-01-09 14:43:00,302 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-09 14:43:00,306 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-01-09 14:43:01,434 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-01-09 14:43:01,439 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-09 14:43:01,444 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-01-09 14:43:01,451 - celery.apps.worker - INFO - celery@luxy ready.
+2025-01-10 12:33:08,227 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-10 12:33:08,286 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-01-10 12:33:08,287 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-10 12:33:08,291 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-01-10 12:33:09,345 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-01-10 12:33:09,349 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-01-10 12:33:09,354 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-01-10 12:33:09,360 - celery.apps.worker - INFO - celery@luxy ready.
+2025-04-14 20:55:16,759 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-04-14 20:55:16,830 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-04-14 20:55:16,831 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-04-14 20:55:16,834 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-04-14 20:55:17,890 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-04-14 20:55:17,930 - celery.apps.worker - INFO - celery@luxy ready.
+2025-04-14 20:55:17,931 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-04-14 20:55:17,934 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-08-25 20:35:03,159 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-08-25 20:35:03,223 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-08-25 20:35:03,224 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-08-25 20:35:03,244 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-08-25 20:35:04,301 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-08-25 20:35:04,322 - celery.apps.worker - INFO - celery@luxy ready.
+2025-08-25 20:35:04,324 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-08-25 20:35:04,328 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-12-30 16:50:17,103 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-12-30 16:50:17,137 - celery.worker.consumer.connection - INFO - Connected to redis://127.0.0.1:6379/1
+2025-12-30 16:50:17,138 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-12-30 16:50:17,150 - celery.worker.consumer.mingle - INFO - mingle: searching for neighbors
+2025-12-30 16:50:18,219 - celery.worker.consumer.mingle - INFO - mingle: all alone
+2025-12-30 16:50:18,235 - celery.apps.worker - INFO - celery@luxy ready.
+2025-12-30 16:50:18,238 - py.warnings - WARNING - D:\pycharm\drflearn\.venv\lib\site-packages\celery\worker\consumer\consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+2025-12-30 16:50:18,243 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[4fd19b70-b88c-4f65-8102-a84dbf625a44] received
+2025-12-30 16:50:18,246 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 16:50:18,292 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] received
+2025-12-30 16:50:18,295 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:18,367 - celery.worker.pidbox - INFO - pidbox: Connected to redis://127.0.0.1:6379/1.
+2025-12-30 16:50:18,384 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[d51cdcdf-66cd-428b-b8b6-c5edbe355202] received
+2025-12-30 16:50:18,389 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 16:50:18,427 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 16:50:18,445 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] received
+2025-12-30 16:50:18,449 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:18,541 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] received
+2025-12-30 16:50:18,550 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:18,613 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 16:50:18,694 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 16:50:18,781 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 16:50:18,843 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[4fd19b70-b88c-4f65-8102-a84dbf625a44] succeeded in 0.6089999999967404s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 16:50:18,847 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[d51cdcdf-66cd-428b-b8b6-c5edbe355202] succeeded in 0.45300000000861473s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 16:50:21,369 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B321C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:21,369 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B321C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:21,909 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B3A3C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:21,910 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B3A3C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:21,911 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B44A070>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:21,911 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B44A070>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:22,111 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] received
+2025-12-30 16:50:22,119 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B321C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:22,128 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] received
+2025-12-30 16:50:22,136 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B3A3C40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:22,152 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] received
+2025-12-30 16:50:22,158 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B44A070>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:26,383 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:26,913 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:26,929 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:29,417 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B4046A0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:29,417 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B4046A0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:29,458 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B4046A0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:29,953 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B476550>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:29,954 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B476550>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:30,028 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:30,028 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:30,136 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B476550>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:30,144 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:31,223 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] received
+2025-12-30 16:50:31,228 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] received
+2025-12-30 16:50:31,233 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] received
+2025-12-30 16:50:34,426 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:34,958 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:35,039 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:37,453 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E2E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:37,454 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E2E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:37,489 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E2E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:37,978 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E160>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:37,979 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E160>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:38,023 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E160>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:38,072 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:38,073 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:38,114 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:41,275 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] received
+2025-12-30 16:50:41,280 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] received
+2025-12-30 16:50:41,284 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] received
+2025-12-30 16:50:42,455 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:42,979 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:43,078 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:43,095 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] received
+2025-12-30 16:50:43,099 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:45,488 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:45,488 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:45,564 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[cb2919af-363b-44f4-89f0-ebb60c01352c] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B872C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,007 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872670>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,008 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872670>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,081 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[b4c283a2-c0d3-47a8-aef5-fdc8824fc7e3] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872670>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B872670>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872670>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,098 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C70>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,098 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C70>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,167 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B841100>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,168 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B841100>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,256 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[48c54371-1b40-441b-bb5b-e9629372e013] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C70>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B872C70>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872C70>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:46,275 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B841100>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:47,303 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] received
+2025-12-30 16:50:51,175 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:50:54,211 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:54,212 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:50:54,294 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B32E400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:50:57,337 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] received
+2025-12-30 16:50:59,217 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:02,240 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B856400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:02,240 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B856400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:02,301 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B856400>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:51:05,364 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] received
+2025-12-30 16:51:07,252 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:10,278 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E1159CEB80>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:10,279 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E1159CEB80>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:10,368 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[871b4ecb-624e-4d65-a24a-149820f427b8] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E1159CEB80>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E1159CEB80>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E1159CEB80>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:16,011 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[74dd0330-914c-4fd6-a366-e51e55e1742e] received
+2025-12-30 16:51:16,013 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 16:51:16,071 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 16:51:16,144 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 16:51:16,211 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[74dd0330-914c-4fd6-a366-e51e55e1742e] succeeded in 0.1870000000053551s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 16:51:27,470 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] received
+2025-12-30 16:51:27,471 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:30,491 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B387820>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:30,492 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B387820>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:30,537 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] received
+2025-12-30 16:51:30,541 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B387820>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:51:35,491 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:38,519 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C5F40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:38,520 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C5F40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:38,608 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] received
+2025-12-30 16:51:38,615 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C5F40>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:51:43,522 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:46,539 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8A7FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:46,540 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8A7FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:46,595 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] received
+2025-12-30 16:51:46,607 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8A7FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:51:51,542 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:51:54,573 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C6C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:54,574 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C6C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:51:54,636 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[212d8ccc-e709-4910-95a0-7fcdf1769ebd] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C6C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B8C6C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8C6C10>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:53:49,750 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] received
+2025-12-30 16:53:49,752 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:53:52,788 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89E8E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:53:52,789 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89E8E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:53:52,822 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] received
+2025-12-30 16:53:52,825 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89E8E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:53:57,801 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:54:00,837 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FDAC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:00,838 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FDAC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:00,878 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] received
+2025-12-30 16:54:00,882 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FDAC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:54:05,841 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:54:08,867 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BC490>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:08,868 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BC490>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:08,904 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] received
+2025-12-30 16:54:08,909 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BC490>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 16:54:13,881 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 16:54:16,908 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BCBE0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:16,910 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BCBE0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:54:16,980 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[df746470-13b9-452b-808b-9fa86165a7b6] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BCBE0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B8BCBE0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8BCBE0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 16:58:07,743 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[c9bd363f-ae77-4310-b1b7-4eb4043eeea8] received
+2025-12-30 16:58:07,746 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 16:58:07,808 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 16:58:07,891 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 16:58:07,969 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[c9bd363f-ae77-4310-b1b7-4eb4043eeea8] succeeded in 0.23399999999674037s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:00:07,713 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] received
+2025-12-30 17:00:07,715 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:00:10,738 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872DC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:10,738 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872DC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:10,808 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] received
+2025-12-30 17:00:10,814 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B872DC0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:00:15,739 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:00:18,767 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89EFD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:18,768 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89EFD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:18,837 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] received
+2025-12-30 17:00:18,844 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B89EFD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:00:23,780 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:00:26,807 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD910>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:26,807 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD910>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:26,871 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] received
+2025-12-30 17:00:26,884 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD910>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:00:26,932 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[23910d71-4bbb-4cfc-9e67-6ab4561eb541] received
+2025-12-30 17:00:26,934 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:00:26,995 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:00:27,072 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:00:27,144 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[23910d71-4bbb-4cfc-9e67-6ab4561eb541] succeeded in 0.20300000000861473s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:00:31,816 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:00:34,843 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E115A4D610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:34,843 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E115A4D610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:00:34,912 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[865600e1-17b5-440c-9981-1cef583b1ee0] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E115A4D610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E115A4D610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E115A4D610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:02:56,428 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[a6d46830-120e-41cd-8a2d-abe2d86a326f] received
+2025-12-30 17:02:56,430 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:02:56,488 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:02:56,558 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:02:56,637 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[a6d46830-120e-41cd-8a2d-abe2d86a326f] succeeded in 0.21899999998277053s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:03:24,554 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[2067123d-707f-48c3-90e6-ac8e2491301a] received
+2025-12-30 17:03:24,555 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:03:24,612 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:03:24,682 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:03:24,753 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[2067123d-707f-48c3-90e6-ac8e2491301a] succeeded in 0.2029999999795109s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:03:54,685 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[021a929d-505e-45a3-8fd9-0b7c1873ec36] received
+2025-12-30 17:03:54,686 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:03:54,741 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:03:54,805 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:03:54,876 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[021a929d-505e-45a3-8fd9-0b7c1873ec36] succeeded in 0.1870000000053551s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:04:22,811 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[425c441f-6349-4aa7-bad1-f07075fcc3d5] received
+2025-12-30 17:04:22,813 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:04:22,874 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:04:22,961 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:04:23,033 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[425c441f-6349-4aa7-bad1-f07075fcc3d5] succeeded in 0.21900000001187436s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:04:30,852 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[85f9eaba-cb5a-40fa-baa4-e072b3c3f8ee] received
+2025-12-30 17:04:30,853 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:04:30,909 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:04:30,976 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:04:31,048 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[85f9eaba-cb5a-40fa-baa4-e072b3c3f8ee] succeeded in 0.20300000000861473s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:05:47,179 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] received
+2025-12-30 17:05:47,180 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:05:50,211 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F2FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:50,211 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F2FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:50,278 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] received
+2025-12-30 17:05:50,288 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F2FD0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:05:55,210 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:05:55,227 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[42d5f11c-00ab-4266-87a5-82b98eb2a785] received
+2025-12-30 17:05:55,228 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:05:55,285 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:05:55,375 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:05:55,446 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[42d5f11c-00ab-4266-87a5-82b98eb2a785] succeeded in 0.21899999998277053s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:05:55,627 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] received
+2025-12-30 17:05:55,629 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:05:56,977 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[bb92611d-06a9-4442-9540-68ac82287517] received
+2025-12-30 17:05:56,978 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:05:57,041 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:05:57,123 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:05:57,192 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[bb92611d-06a9-4442-9540-68ac82287517] succeeded in 0.21899999998277053s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:05:58,254 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:58,254 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:58,330 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B48D850>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:05:58,655 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8E4700>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:58,656 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8E4700>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:05:58,737 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8E4700>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:06:01,222 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] received
+2025-12-30 17:06:01,225 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] received
+2025-12-30 17:06:02,360 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[863b3af4-0750-4b2c-a8c8-2e2af7c7c000] received
+2025-12-30 17:06:02,361 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 15
+2025-12-30 17:06:02,412 - celery.redirected - WARNING - [资源同步] K8s API 获取到 3 个节点
+2025-12-30 17:06:02,491 - apps.clusterInfo.tasks - INFO - 集群 网关集群-深圳 同步完成
+2025-12-30 17:06:02,561 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[863b3af4-0750-4b2c-a8c8-2e2af7c7c000] succeeded in 0.2029999999795109s: 'Cluster 网关集群-深圳 synced'
+2025-12-30 17:06:03,263 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:06:03,662 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:06:06,287 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B923460>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:06,288 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B923460>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:06,361 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] received
+2025-12-30 17:06:06,368 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B923460>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:06:06,682 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B906340>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:06,683 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B906340>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:06,754 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] received
+2025-12-30 17:06:06,769 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B906340>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:06:11,287 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:06:11,690 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:06:14,307 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F9880>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:14,308 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F9880>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:14,384 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[87787d40-40e9-425e-be35-7e14cefd2fb2] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F9880>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B8F9880>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8F9880>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:14,718 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B9068E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:14,719 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B9068E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:14,795 - celery.worker.strategy - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] received
+2025-12-30 17:06:14,817 - celery.app.trace - INFO - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] retry: Retry in 5s: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B9068E0>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+2025-12-30 17:06:19,727 - apps.clusterInfo.tasks - INFO - Celery 开始同步集群 14
+2025-12-30 17:06:22,746 - apps.clusterInfo.PrometheusHandler - ERROR - 同步节点失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:22,746 - apps.clusterInfo.tasks - ERROR - 同步任务失败: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
+2025-12-30 17:06:22,818 - celery.app.trace - ERROR - Task apps.clusterInfo.tasks.task_sync_cluster_nodes[248deba4-ec41-4adb-b595-0413353d10c3] raised unexpected: MaxRetryError("HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))")
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 590, in connect
+    self._internal_connect(address)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\gevent\_socketcommon.py", line 640, in _internal_connect
+    self._wait(self._write_event)
+  File "src\\gevent\\_hub_primitives.py", line 317, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 322, in gevent._gevent_c_hub_primitives.wait_on_socket
+  File "src\\gevent\\_hub_primitives.py", line 313, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 314, in gevent._gevent_c_hub_primitives._primitive_wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 46, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_hub_primitives.py", line 55, in gevent._gevent_c_hub_primitives.WaitOperationsGreenlet.wait
+  File "src\\gevent\\_waiter.py", line 154, in gevent._gevent_c_waiter.Waiter.get
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 61, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_greenlet_primitives.py", line 65, in gevent._gevent_c_greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\\gevent\\_gevent_c_greenlet_primitives.pxd", line 35, in gevent._gevent_c_greenlet_primitives._greenlet_switch
+socket.timeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connection.py", line 208, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 453, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\trace.py", line 736, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 47, in task_sync_cluster_nodes
+    raise self.retry(exc=e, countdown=5)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\celery\app\task.py", line 736, in retry
+    raise_with_context(exc)
+  File "D:\pycharm\oaback\apps\clusterInfo\tasks.py", line 37, in task_sync_cluster_nodes
+    sync_nodes_to_db_with_prom(api_client, cluster, full_sync=False)
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 133, in sync_nodes_to_db_with_prom
+    raise e
+  File "D:\pycharm\oaback\apps\clusterInfo\utils.py", line 12, in sync_nodes_to_db_with_prom
+    k8s_nodes = v1.list_node(_request_timeout=(3, 5)).items
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17150, in list_node
+    return self.list_node_with_http_info(**kwargs)  # noqa: E501
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api\core_v1_api.py", line 17261, in list_node_with_http_info
+    return self.api_client.call_api(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 180, in __call_api
+    response_data = self.request(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 244, in GET
+    return self.request("GET", url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\kubernetes\client\rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "D:\pycharm\drflearn\.venv\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='192.168.239.199', port=16443): Max retries exceeded with url: /api/v1/nodes (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E13B8FD610>, 'Connection to 192.168.239.199 timed out. (connect timeout=3)'))
