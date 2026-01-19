@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>我的邮箱介绍</title>
+  <style>
+    /* CSS 样式 */
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #ffdeea;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #666;
+    }
+    .email {
+      font-weight: bold;
+      color: #007bff;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    /* 新增画布区域样式 */
+    .canvas-container {
+      width: 90%;
+      max-width: 600px;
+      margin: 30px auto;
+      text-align: center;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>我的邮箱</h1>
+    <p>我的邮箱地址 <span class="email">wuhongyu191@gmail.com</span></p>
+	<p>欢迎和本人联系讨论</p>
+    <button id="copyBtn">复制邮箱地址</button>
+  </div>
+  
+  <!-- 新增的div，放置画布 -->
+  <div class="canvas-container">
+    <canvas id="myCanvas" width="600" height="400"></canvas>
+  </div>
+  
+  <script>
+    // 点击按钮复制邮箱地址到剪贴板
+    document.getElementById('copyBtn').addEventListener('click', function() {
+      var email = 'xxx@gmail.com';
+      navigator.clipboard.writeText(email).then(function() {
+        alert('邮箱地址已复制到剪贴板');
+      }, function(err) {
+        alert('复制失败: ' + err);
+      });
+    });
+
+    // 在canvas上绘制简单的“画作”
+    window.addEventListener('load', function() {
+      var canvas = document.getElementById('myCanvas');
+      if (canvas.getContext) {
+        var ctx = canvas.getContext('2d');
+
+        // 绘制渐变背景
+        var gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#ff9a9e');
+        gradient.addColorStop(0.5, '#fad0c4');
+        gradient.addColorStop(1, '#fad0c4');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // 绘制一些随机彩色圆形
+        for (var i = 0; i < 10; i++) {
+          var x = Math.random() * canvas.width;
+          var y = Math.random() * canvas.height;
+          var radius = Math.random() * 40 + 10;
+          var r = Math.floor(Math.random() * 256);
+          var g = Math.floor(Math.random() * 256);
+          var b = Math.floor(Math.random() * 256);
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+          ctx.fillStyle = 'rgba(' + r + ',' + g + ',' + b + ',0.6)';
+          ctx.fill();
+        }
+      }
+    });
+  </script>
+</body>
+</html>
