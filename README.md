@@ -1,5 +1,6 @@
 供小公司使用和个人学习的CMDB项目，具有员工添加展示功能，消息通知发布功能，机房与机房服务器，k8s服务器可视化，监控与终端连接功能。欢迎与本人讨论wuhongyu191@gmail.com
 
+以下为部分页面展示图片
 
 首页
 ![image](https://github.com/xcjoker/WHYOPS-CMDB/blob/main/%E9%A6%96%E9%A1%B5.png?raw=true)
